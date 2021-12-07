@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">chat-api-external-nlb-608900ee440fc0ea.elb.us-east-1.amazonaws.com/chat/channel/websocket</domain>
+    </domain-config>
+    <base-config cleartextTrafficPermitted="true"/>
+</network-security-config>
